@@ -1,0 +1,24 @@
+.accordion {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 32px;
+}
+
+.accordion.hidden {
+  max-height: 100px;
+}
+
+.accordion__toggle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--bg-color);
+  border-radius: 0;
+  width: 100%;
+  height: 32px;
+  border-top: 1px solid grey;
+}
+
+.accordion__toggle:focus {
+  outline: 0;
+}
